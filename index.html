@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Grading Application</title>
+</head>
+<body>
+    <div class="div">
+        <div class="application-heading">
+            <h1 class="heading">Grading Application</h1>
+        </div>
+        <div class="main-section">
+            <div class="input-section">
+                <input type="number" id="math" placeholder="Math Marks" required>
+                <input type="number" id="computer" placeholder="Computer Marks" required>
+                <input type="number" id="urdu" placeholder="Urdu Marks" required>
+                <input type="number" id="english" placeholder="English Marks" required>
+                <input type="number" id="economics" placeholder="Economics Marks" required>
+                <button id="calculate" onclick="calculate()">Calculate</button>
+            </div>
+            <div class="result">
+                <div class="resultheading">
+                    <h1>Your Result</h1>
+                </div>
+                <div class="result-section">
+                    <div class="flex">
+                        <div class="totalmarkst">Total Marks :</div>
+                        <div class="totalmarksn">500</div>
+                    </div>
+                    <div class="flex">
+                        <div class="obtainmarkst">Obtain Marks :</div>
+                        <div class="obtainmarksn"></div>
+                    </div>
+                    <div class="flex">
+                        <div class="percentaget">Average :</div>
+                        <div class="percentagen"></div>
+                    </div>
+                    <div class="flex">
+                        <div class="grade">Grade :</div>
+                        <div class="gradet"></div>
+                    </div>
+                    <div class="flex">
+                        <div class="remarks">Remarks :</div>
+                        <div class="remarkt"></div>
+                    </div>
+                </div>
+                <button class="printresult">Print your result</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
